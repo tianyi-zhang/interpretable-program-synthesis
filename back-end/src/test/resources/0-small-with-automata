@@ -1,0 +1,105 @@
+program:  <A>
+automaton:  [A]
+matching indices:  0
+matching examples:
+A---------true
+program:  <B>
+automaton:  [B]
+matching indices:  1
+matching examples:
+B---------true
+program:  <cap>
+automaton:  [A-Z]
+matching indices:  0 1 2
+matching examples:
+A---------true
+B---------true
+C---------true
+program:  <C>
+automaton:  [C]
+matching indices:  2
+matching examples:
+C---------true
+program:  startwith(<A>)
+automaton:  ([A]).*
+matching indices:  0
+matching examples:
+A---------true
+program:  startwith(<B>)
+automaton:  ([B]).*
+matching indices:  1
+matching examples:
+B---------true
+program:  startwith(<cap>)
+automaton:  ([A-Z]).*
+matching indices:  0 1 2
+matching examples:
+A---------true
+B---------true
+C---------true
+program:  startwith(<C>)
+automaton:  ([C]).*
+matching indices:  2
+matching examples:
+C---------true
+program:  endwith(<A>)
+automaton:  .*([A])
+matching indices:  0
+matching examples:
+A---------true
+program:  endwith(<B>)
+automaton:  .*([B])
+matching indices:  1
+matching examples:
+B---------true
+program:  endwith(<cap>)
+automaton:  .*([A-Z])
+matching indices:  0 1 2
+matching examples:
+A---------true
+B---------true
+C---------true
+program:  endwith(<C>)
+automaton:  .*([C])
+matching indices:  2
+matching examples:
+C---------true
+program:  contain(<A>)
+automaton:  .*([A]).*
+matching indices:  0
+matching examples:
+A---------true
+program:  contain(<B>)
+automaton:  .*([B]).*
+matching indices:  1
+matching examples:
+B---------true
+program:  contain(<cap>)
+automaton:  .*([A-Z]).*
+matching indices:  0 1 2
+matching examples:
+A---------true
+B---------true
+C---------true
+program:  contain(<C>)
+automaton:  .*([C]).*
+matching indices:  2
+matching examples:
+C---------true
+program:  optional(<A>)
+automaton:  ([A])?
+matching indices:  0
+matching examples:
+A---------true
+program:  optional(<B>)
+automaton:  ([B])?
+matching indices:  1
+matching examples:
+B---------true
+program:  optional(<cap>)
+automaton:  ([A-Z])?
+matching indices:  0 1 2
+matching examples:
+A---------true
+B---------true
+C---------true

@@ -1,0 +1,158 @@
+h3 {
+	text-align: center;
+	margin: 10px;
+}
+
+.input-anno-btn {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+
+.regex {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-size: large;
+    font-family:'Courier New';
+    color: black;
+}
+
+.header {
+	margin: 20px;
+}
+
+.must-have {
+	background-color:#ffc107;
+	color: #fff;
+}
+
+.probably-have {
+    background-color:#17a2b8;
+    color: #fff;
+}
+
+.not-have {
+	background-color:#6c757d;
+	color: #fff;	
+}
+
+.char-family {
+	background-color:#17a2b8;
+	color: #fff;
+}
+
+.sans-font {
+        color: #404E67;
+		font-family: 'Open Sans', sans-serif;
+}
+
+.match {
+	color:green;
+}
+
+.unmatch {
+	color: red;
+}
+
+.icon {
+    text-align:center;
+}
+
+.removable {
+	font-size: 14px;
+	padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    margin: 2px;
+    font-weight: bold;
+    background-color: #b5bab6;
+    border-color: #b5bab6;
+}
+
+.annotation {
+	font-size: 14px;
+}
+
+.cheatsheet {
+	 margin: 20px;
+}
+
+.keyword {
+	color:#530c8e;
+}
+
+.cheesheetheader {
+	padding: 0;
+}
+
+.tooltip-inner {
+    text-align: left;
+    max-width: 350px;
+}
+
+.code {
+    font-family: Monaco, Consolas, Menlo, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    /*fill: #fff;
+    stroke: steelblue;*/
+    stroke-width: 2px;
+}
+
+.node text {
+    font: 12px sans-serif;
+    fill: #212529;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.tree {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.samplecard {
+    padding: 10px;
+    margin: 10px;
+}
+
+.sample {
+    margin: 5px;
+}
+
+.sample:hover{
+    border: solid 5px #808080;
+}
+
+div.treetooltip {   
+    position: absolute;         
+    text-align: left;         
+    max-width: 350px;                    
+    max-height: 25px;                   
+    padding: 5px;               
+    font: 12px sans-serif;      
+    background: black;
+    color: white; 
+    border: 0px;        
+    border-radius: 5px;         
+    pointer-events: none;           
+}
