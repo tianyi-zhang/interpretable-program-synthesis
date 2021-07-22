@@ -9,7 +9,7 @@
 
 ## Install from Pre-built Distribution
 
-1. Download our software distribution [here](https://drive.google.com/open?id=1_9cEILvFzF4D32KDTJTa_890eCzbqrml).
+1. Download our software distribution [here](https://drive.google.com/file/d/13PjquOCUHdmQGPOseWEiBPP3AavpJQTb/view?usp=sharing).
 2. Unzip the downloaded file.
 3. If you are a Mac user, please copy `lib/libz3java.dylib`, `lib/com.microsoft.z3.jar`, and `lib/libz3.dylib` to `/usr/local/lib`. 
 4. In terminal, go into the unzipped folder and start the server.
