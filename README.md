@@ -57,3 +57,4 @@
 1. In Mac, you may see the following error.
 ```libz3java.dylib cannot be opened because it is from an unidentified developer.```
 The underlying synthesizer in our tool depends on a theorem prover, [Z3](https://github.com/Z3Prover/z3), developed by Microsoft Research. Please grant the permission to this app by 1) open System Preferences, 2) click Security & Privacy, 3) click General, and 4) click "Open Anyway" next to the warning of this app.
+2. Our synthesizer only works with Z3 4.8.9 or lower. The newer Z3 has changed their class signatures and are no longer compatible with our code. 
